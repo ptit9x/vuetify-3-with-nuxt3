@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "yarn upgrade"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vuetify": "^3.0.0"
+  },
+  "keywords": [
+    "vuetify",
+    "template",
+    "nuxt",
+    "vue"
+  ],
+  "name": "nuxt-3-and-vuetify-3-template",
+  "description": "nuxt boilerplate with vuetify ui framework",
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "mdi": "^2.2.43"
+  }
+}
