@@ -1,7 +1,19 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import type { Ref } from 'vue'
+
+// reactive state
+const drawer: Ref<boolean> = ref(false);
+// functions that mutate state and trigger updates
+function onToggle() {
+  drawer.value = !drawer;
+}
+</script>
+
 <template>
   <v-app>
     <v-app-bar color="primary">
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="onToggle" />
 
       <v-toolbar-title>Nuxt 3 & Vuetify 3 Template</v-toolbar-title>
 
@@ -46,11 +58,3 @@
     </v-main>
   </v-app>
 </template>
-
-<script lang="ts">
-export default {
-  data: () => ({
-    drawer: null,
-  }),
-};
-</script>
