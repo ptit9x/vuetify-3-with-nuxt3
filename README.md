@@ -1,6 +1,6 @@
 # Nuxt 3 Minimal Starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) and [Vuetify 3 documentation](https://next.vuetifyjs.com/en/getting-started/installation) to learn more.
 
 ![alt text for screen readers](/background.png "Text to show on mouseover")
 
@@ -11,9 +11,6 @@ Make sure to install the dependencies:
 ```bash
 # yarn
 yarn install
-
-# npm
-npm install
 
 # pnpm
 pnpm install --shamefully-hoist
