@@ -1,3 +1,12 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import type { Ref } from 'vue'
+
+const fav: Ref<boolean> = ref(true);
+const menu: Ref<boolean> = ref(false);
+const message: Ref<boolean> = ref(false);
+const hints: Ref<boolean> = ref(true);
+</script>
 <template>
   <div class="text-center">
     <v-menu
@@ -80,13 +89,3 @@
     </v-menu>
   </div>
 </template>
-<script>
-  export default {
-    data: () => ({
-      fav: true,
-      menu: false,
-      message: false,
-      hints: true,
-    }),
-  }
-</script>
